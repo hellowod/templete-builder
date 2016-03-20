@@ -5,7 +5,7 @@ import (
 )
 
 func PrintLog() {
-	fmt.Println("templete is a tool for build templete code.")
+	fmt.Println("templetebuilder is a tool for build templete code.")
 	fmt.Println("")
 
 	fmt.Println("Usage:")
@@ -13,8 +13,8 @@ func PrintLog() {
 	fmt.Println("")
 
 	fmt.Println("The command are:")
-	fmt.Println("  -o    output file folder")
-	fmt.Println("  -i    input config file folder")
-	fmt.Println("  -t    templete file folder, if it is null, it is current folder templete")
+	fmt.Println("  -o    output file folder, default current output folder")
+	fmt.Println("  -i    input config file folder, default current config folder")
+	fmt.Println("  -t    templete file folder, default current templete folder")
 	fmt.Println("  -help if you don't how to do, use -help")
 }

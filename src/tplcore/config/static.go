@@ -11,6 +11,7 @@ const (
 
 // args type
 const (
+	Lang = "-l"
 	Out  = "-t"
 	In   = "-i"
 	Tpl  = "-t"

@@ -8,8 +8,8 @@ import (
 var Ags *Args
 
 type Param struct {
-	cmd   string
-	value string
+	Cmd   string
+	Value string
 }
 
 type Args struct {
@@ -20,7 +20,7 @@ type Args struct {
 }
 
 func (p Param) ToString() (str string) {
-	return p.cmd + ":" + p.value
+	return p.Cmd + ":" + p.Value
 }
 
 func ParseArgs(args []string) {

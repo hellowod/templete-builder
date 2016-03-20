@@ -13,13 +13,28 @@ import (
 	"tplcore/util"
 )
 
+var configInput = "config"
+var configOut = "output"
+var configTpl = "templete/csharp.tpl"
+
 func main() {
 	argnum := len(os.Args)
 	if argnum <= 1 {
 		util.PrintLog()
 	}
 
-	filepath.Walk("config", func(name string, file os.FileInfo, err error) error {
+	/*
+		if len(table.Ags.In.Value) < 1 {
+			configInput = table.Ags.In.Value
+		}
+		if len(table.Ags.Out.Value) < 1 {
+			configOut = table.Ags.Out.Value
+		}
+		if len(table.Ags.Tpl.Value) < 1 {
+			configTpl = table.Ags.Tpl.Value
+		}
+	*/
+	filepath.Walk(configInput, func(name string, file os.FileInfo, err error) error {
 		if err != nil {
 			return err
 		}
@@ -72,7 +87,7 @@ func NewTableSheet(name string) (s table.Sheet) {
 
 func ParseTemplete(name string, sheet table.Sheet) error {
 	tpl := template.New("tplname")
-	tpl, _ = tpl.Parse(fileutil.ReadFile("templete/csharp.tpl"))
+	tpl, _ = tpl.Parse(fileutil.ReadFile(configTpl))
 
 	buf := new(bytes.Buffer)
 
@@ -81,7 +96,7 @@ func ParseTemplete(name string, sheet table.Sheet) error {
 		return err
 	}
 
-	outPath := filepath.Join("output", name)
+	outPath := filepath.Join(configOut, name)
 	fileutil.WriteFile(outPath, buf.String())
 
 	return nil
