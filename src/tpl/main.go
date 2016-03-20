@@ -22,8 +22,7 @@ func main() {
 	if argnum <= 1 {
 		util.PrintLog()
 	}
-
-	/*
+	if table.Ags != nil {
 		if len(table.Ags.In.Value) < 1 {
 			configInput = table.Ags.In.Value
 		}
@@ -33,7 +32,8 @@ func main() {
 		if len(table.Ags.Tpl.Value) < 1 {
 			configTpl = table.Ags.Tpl.Value
 		}
-	*/
+	}
+
 	filepath.Walk(configInput, func(name string, file os.FileInfo, err error) error {
 		if err != nil {
 			return err
