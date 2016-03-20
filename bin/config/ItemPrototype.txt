@@ -1,0 +1,175 @@
+﻿int	string	int	int	string	string	string	string	int	int	int	int	int	int
+Id	MarkDes	Type	ClientTabIndex	Name	Icon	DropModel	Des	Rank	CanSell	SellPrice	CanDropByKill	Level	MaxStack
+#主键	程序不用的注释	类型枚举	对应背包中tab标签按钮	名称	图标	模型文件	描述	稀有度等级	是否可出售	出售价格	是否会因被其他玩家击杀而掉落	物品等级	在背包中堆叠数量上限
+12		12	0	金币	ItemAtlas:item_money	equip/dl_jinbidui.unity3d	金币12的描述内容	1	0	0	0	0	99
+3		3	2	力量增长药剂	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	使用后，增加100点力量。\n效果持续1小时。	3	1	400	0	1	99
+5	任务物品：老王家的地契	5	3	女神之泪	ItemAtlas:item_juanzhou	equip/dl_juanzhou.unity3d	奇迹女神为涂炭的生灵流下了怜悯的泪水.	1	1	600	0	1	99
+6		6	0	小恶魔宝宝	ItemAtlas:cw_xiaoemo	pet/pet_xiaoemo.unity3d	宠物6的描述内容	2	1	700	0	1	1
+7		7	2	奇迹石	ItemAtlas:item_renwujineng	equip/dl_jinengshu_002.unity3d	技能升级材料7的描述内容	3	1	800	0	1	99
+8		8	2	宠物技能升级材料8	ItemAtlas:item_renwujineng	equip/dl_jinengshu_002.unity3d	宠物技能升级材料8的描述内容	4	1	900	0	1	99
+9		9	2	还童丹	ItemAtlas:item_renwujineng	equip/dl_jinengshu_002.unity3d	宠物培养材料9的描述内容	1	1	1000	0	1	99
+10		10	2	强化装备材料	ItemAtlas:item_magic	equip/dl_jinengshu_002.unity3d	一种很常见的强化装备材料（测试）	1	1	1000	0	1	99
+4	测试期间剑士礼包	4	2	至尊礼包	ItemAtlas:item_chest	equip/dl_juanzhou.unity3d	打开后，能获得现有的一整套道具	4	0	0	0	1	1
+25	测试期间法师礼包	4	2	至尊礼包	ItemAtlas:item_chest	equip/dl_juanzhou.unity3d	打开后，能获得现有的一整套道具	4	0	0	0	1	1
+26	测试期间弓手礼包	4	2	至尊礼包	ItemAtlas:item_chest	equip/dl_juanzhou.unity3d	打开后，能获得现有的一整套道具	4	0	0	0	1	1
+40001		1	1	装备 40001	EquipAtlas:ZS_K_04_head	equip/zs_k_04_head.unity3d	装备 40001的描述内容	4	1	100	0	1	1
+40002		1	1	装备 40002	EquipAtlas:ZS_K_04_chest	equip/zs_k_04_chest.unity3d	装备 40002的描述内容	4	1	1100	0	1	1
+40003		1	1	装备 40003	EquipAtlas:ZS_K_04_hand	equip/zs_k_04_hand.unity3d	装备 40003的描述内容	4	1	1200	0	1	1
+40004		1	1	装备 40004	EquipAtlas:ZS_K_04_leg	equip/zs_k_04_leg.unity3d	装备 40004的描述内容	4	1	1300	0	1	1
+40005		1	1	装备 40005	EquipAtlas:ZS_K_04_foot	equip/zs_k_04_foot.unity3d	装备 40005的描述内容	4	1	1400	0	1	1
+40006		1	1	装备 40006	EquipAtlas:ZS_Weapon_Sword_04	equip/zs_weapon_sword_04.unity3d	装备 40006的描述内容	4	1	1500	0	1	1
+40009		1	1	黑龙王之煞	EquipAtlas:zs_chibang_003	equip/zs_wing_baofengzhiyi_002.unity3d	凡人，你终将被毁灭！	4	1	1500	0	1	1
+40301		1	1	勇气头盔	EquipAtlas:ZS_K_04_head	equip/zs_k_04_head.unity3d	只有一个洞	4	1	1500	0	1	1
+40302		1	1	勇气战甲	EquipAtlas:ZS_K_04_chest	equip/zs_k_04_chest.unity3d		4	1	1500	0	1	1
+40303		1	1	勇气护手	EquipAtlas:ZS_K_04_hand	equip/zs_k_04_hand.unity3d		4	1	1500	0	1	1
+40304		1	1	勇气护腿	EquipAtlas:ZS_K_04_leg	equip/zs_k_04_leg.unity3d		4	1	1500	0	1	1
+40305		1	1	勇气战靴	EquipAtlas:ZS_K_04_foot	equip/zs_k_04_foot.unity3d		4	1	1500	0	1	1
+40101	测试礼包里配置	1	1	红龙王头盔	EquipAtlas:ZS_K_01_head	equip/zs_k_01_head.unity3d	生命之龙阿雷丽斯塔萨——屠龙者留	4	1	1500	0	1	1
+40102	测试礼包里配置	1	1	红龙王战甲	EquipAtlas:ZS_K_01_chest	equip/zs_k_01_chest.unity3d		4	1	1500	0	1	1
+40103	测试礼包里配置	1	1	红龙王护手	EquipAtlas:ZS_K_01_hand	equip/zs_k_01_hand.unity3d		4	1	1500	0	1	1
+40104	测试礼包里配置	1	1	红龙王护腿	EquipAtlas:ZS_K_01_leg	equip/zs_k_01_leg.unity3d		4	1	1500	0	1	1
+40105	测试礼包里配置	1	1	红龙王战靴	EquipAtlas:ZS_K_01_foot	equip/zs_k_01_foot.unity3d	真的很臭	4	1	1500	0	1	1
+40107		3	2	治疗药水	ItemAtlas:item_health	equip/dl_hongyaoshui.unity3d	装备 40107的描述内容	2	1	1500	0	1	99
+40109		7	2	奥义卷轴：飚	ItemAtlas:item_juanzhou	equip/dl_juanzhou.unity3d	用来提升剑刃风暴的奥义。	3	1	1500	0	1	99
+40110		10	2	玛雅宝石	ItemAtlas:item_maya	equip/dl_mayabaoshi.unity3d	用来升级装备的材料。	4	1	1500	0	1	99
+40111		8	2	宠物技能:护主之心	ItemAtlas:item_renwujineng	equip/dl_jinengshu_002.unity3d	宠物用来领悟护主之心的技能书。	3	1	1500	0	1	99
+40115		10	2	祝福宝石	ItemAtlas:item_zhufu	equip/dl_zhufubaoshi.unity3d	用来强化装备的材料。升星1-7级。	3	1	1500	0	1	99
+40116	测试礼包里配置	1	1	龙骨巨晶剑	EquipAtlas:ZS_Weapon_Sword_04	equip/zs_weapon_sword_04.unity3d	武林至尊，宝刀屠龙，号令江湖，莫敢不从。	3	1	1500	0	1	1
+40117		10	2	灵魂宝石	ItemAtlas:item_linghun	equip/dl_linghunbaoshi.unity3d	用来强化装备的材料。升星8-11级。	4	1	1500	0	1	99
+40118		10	2	创造宝石	ItemAtlas:item_magic	equip/dl_chuangzaobaoshi.unity3d	用来强化装备的材料。	4	1	1500	0	1	99
+40119		10	2	生命宝石	ItemAtlas:item_shengming	equip/dl_shengmingbaoshi.unity3d	用来强化装备的材料。	4	1	1500	0	1	99
+40120	测试法宝	1	1	法宝:奇迹之光	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	在闪耀的奇迹之光下一切邪恶无所遁形.	4	1	1500	0	1	1
+40121		16	0	血球				1	0	0	0	0	1
+11001	巨蛇魔剑	1	1	巨蛇魔剑	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	虽然装备它的力量要求较高,但是一般的剑士多数选择它.	1	1	100	0	1	1
+11002	死神镰刀	1	1	死神镰刀	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	散发出强烈血光的镰刀,拥有巨大的外型和强大的杀伤力,是剑士们梦寐以求的武器.	1	1	100	0	1	1
+11003	皮套盾	1	1	皮套盾	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士在游戏中最初的防御装备.	1	1	100	0	1	1
+11004	皮铠	1	1	皮铠	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士在游戏中最初的防御装备.	1	1	100	0	1	1
+11005	皮护腿	1	1	皮护腿	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士在游戏中最初的防御装备.	1	1	100	0	1	1
+11006	皮盔	1	1	皮盔	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士在游戏中最初的防御装备.	1	1	100	0	1	1
+11007	皮鞋	1	1	皮鞋	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士在游戏中最初的防御装备.	1	1	100	0	1	1
+11008	皮护手	1	1	皮护手	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士在游戏中最初的防御装备.	1	1	100	0	1	1
+11009	皮戒指	1	1	皮戒指	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士在游戏中最初的防御装备.	1	1	100	0	1	1
+11010	皮项链	1	1	皮项链	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士在游戏中最初的防御装备.	1	1	100	0	1	1
+11011	青铜套单手武器	1	1	青铜套单手武器	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	以青铜为原料做的防御装备.	1	1	2000	0	20	1
+11012	青铜套双手武器	1	1	青铜套双手武器	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	以青铜为原料做的防御装备.	1	1	2000	0	20	1
+11013	青铜套盾	1	1	青铜套盾	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	以青铜为原料做的防御装备.	1	1	2000	0	20	1
+11014	青铜铠	1	1	青铜铠	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	以青铜为原料做的防御装备.	1	1	2000	0	20	1
+11015	青铜护腿	1	1	青铜护腿	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	以青铜为原料做的防御装备.	1	1	2000	0	20	1
+11016	青铜盔	1	1	青铜盔	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	以青铜为原料做的防御装备.	1	1	2000	0	20	1
+11017	青铜鞋	1	1	青铜鞋	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	以青铜为原料做的防御装备.	1	1	2000	0	20	1
+11018	青铜护手	1	1	青铜护手	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	以青铜为原料做的防御装备.	1	1	2000	0	20	1
+11019	青铜戒指	1	1	青铜戒指	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	以青铜为原料做的防御装备.	1	1	2000	0	20	1
+11020	青铜项链	1	1	青铜项链	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	以青铜为原料做的防御装备.	1	1	2000	0	20	1
+11021	30级战士翅膀	1	1	暴风之翼	ItemAtlas:item_magic	ip\zs_wing_baofengzhiyi_002.unity3d	恶魔的翅膀.	1	1	3000	0	1	1
+11022	真红之剑	1	1	真红之剑	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	曾被魔剑士们誉为最强的单手剑,但是随着雷神之剑的出现,其地位有所下降.不过,仍有很多魔剑士喜欢使用它.	1	1	4000	0	40	1
+11023	太阳之剑	1	1	太阳之剑	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	拥有太阳一般的强烈热量,拥有强大的攻击力.	1	1	4000	0	40	1
+11024	龙之盾	1	1	龙之盾	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	龙是传说中强大的生物,而龙之盾可以防住龙强大的攻击.	1	1	4000	0	40	1
+11025	黄金铠	1	1	黄金铠	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士的过渡防御装备.	1	1	4000	0	40	1
+11026	黄金护腿	1	1	黄金护腿	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士的过渡防御装备.	1	1	4000	0	40	1
+11027	黄金盔	1	1	黄金盔	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士的过渡防御装备.	1	1	4000	0	40	1
+11028	黄金鞋	1	1	黄金鞋	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士的过渡防御装备.	1	1	4000	0	40	1
+11029	黄金护手	1	1	黄金护手	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士的过渡防御装备.	1	1	4000	0	40	1
+11030	黄金戒指	1	1	黄金戒指	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士的过渡防御装备.	1	1	4000	0	40	1
+11031	黄金项链	1	1	黄金项链	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	剑士的过渡防御装备.	1	1	4000	0	40	1
+11032	40级战士法宝	1	1	7战士法宝	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	40战士法宝的描述	1	1	3000	0	30	1
+11033	玛雅龙斧	1	1	玛雅龙斧	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	仙踪林的玛雅哥布林打造的强大武器.	1	1	6000	0	60	1
+11034	红龙王铠	1	1	红龙王铠	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	MU大陆剑士的高级防御装备.	1	1	6900	0	69	1
+11035	红龙王护腿	1	1	红龙王护腿	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	MU大陆剑士的高级防御装备.	1	1	7800	0	78	1
+11036	红龙王盔	1	1	红龙王盔	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	MU大陆剑士的高级防御装备.	1	1	8700	0	87	1
+11037	红龙王鞋	1	1	红龙王鞋	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	MU大陆剑士的高级防御装备.	1	1	9600	0	96	1
+11038	红龙王护手	1	1	红龙王护手	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	MU大陆剑士的高级防御装备.	1	1	10500	0	105	1
+11039	红龙王戒指	1	1	红龙王戒指	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	MU大陆剑士的高级防御装备.	1	1	11400	0	114	1
+11040	红龙王项链	1	1	红龙王项链	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	MU大陆剑士的高级防御装备.	1	1	12300	0	123	1
+11041	60级战士翅膀	1	1	60级战士翅膀	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	飞龙的翅膀	1	1	6000	0	60	1
+11042	60级战士法宝	1	1	60级战士法宝	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	60战士法宝的描述	1	1	6000	0	60	1
+11043	玄冰剑	1	1	玄冰剑	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	缠绕着寒冰气息的水晶之剑.	1	1	13200	0	132	1
+11044	黑龙王铠	1	1	黑龙王铠	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	比龙王装备还强的防御装备,积聚了暗黑的力量.	1	1	14000	0	140	1
+11045	黑龙王护腿	1	1	黑龙王护腿	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	比龙王装备还强的防御装备,积聚了暗黑的力量.	1	1	14800	0	148	1
+11046	黑龙王盔	1	1	黑龙王盔	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	比龙王装备还强的防御装备,积聚了暗黑的力量.	1	1	15600	0	156	1
+11047	黑龙王鞋	1	1	黑龙王鞋	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	比龙王装备还强的防御装备,积聚了暗黑的力量.	1	1	16400	0	164	1
+11048	黑龙王护手	1	1	黑龙王护手	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	比龙王装备还强的防御装备,积聚了暗黑的力量.	1	1	17200	0	172	1
+11049	黑龙王戒指	1	1	黑龙王戒指	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	比龙王装备还强的防御装备,积聚了暗黑的力量.	1	1	18000	0	180	1
+11050	黑龙王项链	1	1	黑龙王项链	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	比龙王装备还强的防御装备,积聚了暗黑的力量.	1	1	18800	0	188	1
+11051	140级战士翅膀	1	1	140级战士翅膀	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	巨龙之翼的描述	1	1	14000	0	140	1
+11052	140级战士法宝	1	1	140级战士法宝	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	140战士法宝的描述	1	1	14000	0	140	1
+11053	屠龙刀	1	1	屠龙刀	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	早已干枯的历代"黑暗之江"沉淀磨刷而成.大自然赋予的天然之刀,有着揭开黑暗的力量.	1	1	19600	0	196	1
+11054	龙炎铠	1	1	龙炎铠	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	利用火龙的骨架和皮做成的这款铠甲,它本身散发着火热的气焰.	1	1	20300	0	203	1
+11055	龙炎护腿	1	1	龙炎护腿	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	利用火龙的骨架和皮做成的这款铠甲,它本身散发着火热的气焰.	1	1	21000	0	210	1
+11056	龙炎盔	1	1	龙炎盔	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	利用火龙的骨架和皮做成的这款铠甲,它本身散发着火热的气焰.	1	1	21700	0	217	1
+11057	龙炎鞋	1	1	龙炎鞋	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	利用火龙的骨架和皮做成的这款铠甲,它本身散发着火热的气焰.	1	1	22400	0	224	1
+11058	龙炎护手	1	1	龙炎护手	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	利用火龙的骨架和皮做成的这款铠甲,它本身散发着火热的气焰.	1	1	23100	0	231	1
+11059	龙炎戒指	1	1	龙炎戒指	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	利用火龙的骨架和皮做成的这款铠甲,它本身散发着火热的气焰.	1	1	23800	0	238	1
+11060	龙炎项链	1	1	龙炎项链	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	利用火龙的骨架和皮做成的这款铠甲,它本身散发着火热的气焰.	1	1	24500	0	245	1
+11061	200级战士法宝	1	1	200级战士翅膀	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	200战士法宝的描述	1	1	20000	0	200	1
+11062	青龙刀	1	1	200级战士法宝	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	外形独特的武器,据说在遥远的东方大陆有一名强大的剑士非常擅长使用.	1	1	20000	0	200	1
+11063	勇气铠	1	1	青龙刀	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	可以赐予穿戴者勇敢前行的意志.	1	1	25200	0	252	1
+11064	勇气护腿	1	1	勇气铠	EquipAtlas:ZS_K_04_chest	equip/zs_k_04_chest.unity3d	可以赐予穿戴者勇敢前行的意志.	1	1	25800	0	258	1
+11065	勇气盔	1	1	勇气护腿	EquipAtlas:ZS_K_04_leg	equip/zs_k_04_leg.unity3d	可以赐予穿戴者勇敢前行的意志.	1	1	26400	0	264	1
+11066	勇气鞋	1	1	勇气盔	EquipAtlas:ZS_K_04_head	equip/zs_k_04_head.unity3d	可以赐予穿戴者勇敢前行的意志.	1	1	27000	0	270	1
+11067	勇气护手	1	1	勇气鞋	EquipAtlas:ZS_K_04_foot	equip/zs_k_04_foot.unity3d	可以赐予穿戴者勇敢前行的意志.	1	1	27600	0	276	1
+11068	勇气戒指	1	1	勇气护手	EquipAtlas:ZS_K_04_hand	equip/zs_k_04_hand.unity3d	可以赐予穿戴者勇敢前行的意志.	1	1	28200	0	282	1
+11069	勇气项链	1	1	勇气戒指	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	可以赐予穿戴者勇敢前行的意志.	1	1	28800	0	288	1
+11070	260级战士翅膀	1	1	勇气项链	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	暴风之翼的描述	1	1	29400	0	294	1
+11071	260级战士法宝	1	1	260级战士法宝	ItemAtlas:item_magic	equip/dl_hongyaoshui.unity3d	260战士法宝的描述	1	1	26000	0	260	1
+11072	260级弓手翅膀	1	1	幻影之翼	EquipAtlas:gs_chibang_003	equip/gs_wing_huanyingzhiyi.unity3d	260级弓手的翅膀描述	1	1	29400	0	1	1
+17001	普通屠魔卷	17	2	 	ItemAtlas:item_juanzhou	equip/dl_juanzhou.unity3d	使用后可以获得普通屠魔任务, 也可以用来合成优质屠魔券.	1	0	0	0	1	999
+17002	优质屠魔券	17	2	优质屠魔券	ItemAtlas:item_juanzhou	equip/dl_juanzhou.unity3d	使用后可以获得优质屠魔任务, 也可以用来合成精良屠魔券.	2	0	0	0	47	999
+17003	精良屠魔券	17	2	精良屠魔券	ItemAtlas:item_juanzhou	equip/dl_juanzhou.unity3d	使用后可以获得精良屠魔任务, 也可以用来合成传说屠魔券.	3	0	0	0	65	999
+17004	传说屠魔券	17	2	传说屠魔券	ItemAtlas:item_juanzhou	equip/dl_juanzhou.unity3d	使用后可以获得传说屠魔任务, 也可以用来合成史诗屠魔券.	4	0	0	0	83	999
+17005	史诗屠魔券	17	2	史诗屠魔券	ItemAtlas:item_juanzhou	equip/dl_juanzhou.unity3d	使用后可以获得史诗屠魔任务.	5	0	0	0	101	999
+5001	掉落测试数据	1	1	女神头盔	EquipAtlas:gs_s_nvshen_head	equip/gs_s_nvshen_head.unity3d	掉落测试数据	4	1	1500	0	1	1
+5002	掉落测试数据	1	1	女神战甲	EquipAtlas:gs_s_nvshen_chest	equip/gs_s_nvshen_chest.unity3d	掉落测试数据	4	1	1500	0	1	1
+5003	掉落测试数据	1	1	女神护手	EquipAtlas:gs_s_nvshen_hand	equip/gs_s_nvshen_hand.unity3d	掉落测试数据	4	1	1500	0	1	1
+5004	掉落测试数据	1	1	女神护腿	EquipAtlas:gs_s_nvshen_leg	equip/gs_s_nvshen_leg.unity3d	掉落测试数据	4	1	1500	0	1	1
+5005	掉落测试数据	1	1	女神战靴	EquipAtlas:gs_s_nvshen_foot	equip/gs_s_nvshen_foot.unity3d	掉落测试数据	4	1	1500	0	1	1
+5006	掉落测试数据	1	1	紫焰之弓	EquipAtlas:gs_weapon_ziyangong	equip/gs_weapon_ziyangong.unity3d	掉落测试数据	4	1	1500	0	1	1
+6001	掉落测试数据	1	1	传说头盔	EquipAtlas:fs_m_chuanshuo_head	equip/fs_m_chuanshuo_head.unity3d	掉落测试数据	4	1	1500	0	1	1
+6002	掉落测试数据	1	1	传说战甲	EquipAtlas:fs_m_chuanshuo_chest	equip/fs_m_chuanshuo_chest.unity3d	掉落测试数据	4	1	1500	0	1	1
+6003	掉落测试数据	1	1	传说护手	EquipAtlas:fs_m_chuanshuo_hand	equip/fs_m_chuanshuo_hand.unity3d	掉落测试数据	4	1	1500	0	1	1
+6004	掉落测试数据	1	1	传说护腿	EquipAtlas:fs_m_chuanshuo_leg	equip/fs_m_chuanshuo_leg.unity3d	掉落测试数据	4	1	1500	0	1	1
+6005	掉落测试数据	1	1	传说战靴	EquipAtlas:fs_m_chuanshuo_foot	equip/fs_m_chuanshuo_foot.unity3d	掉落测试数据	4	1	1500	0	1	1
+6006	掉落测试数据	1	1	魔域之杖	EquipAtlas:fs_weapon_moyuzhang	equip/fs_weapon_moyuzhang.unity3d	掉落测试数据	4	1	1500	0	1	1
+6007	掉落测试数据	1	1	亡灵之盾	EquipAtlas:fs_weapon_wanglingdun	equip/fs_weapon_wanglingdun.unity3d	掉落测试数据	4	1	1500	0	1	1
+6008	掉落测试数据	1	1	时空之翼	EquipAtlas:fs_chibang_003	equip/fs_wing_shikongzhiyi.unity3d	掉落测试数据	5	1	8888	0	1	1
+60001		6	0	调皮小恶魔	ItemAtlas:cw_xiaoemo	pet/pet_xiaoemo.unity3d	ID60001	2	1	700	0	1	1
+60002		6	0	呆萌小恶魔	ItemAtlas:cw_xiaoemo	pet/pet_xiaoemo.unity3d	ID60002	2	1	700	0	1	1
+40108		2	2	1级力量宝石	ItemAtlas:item_hongbaoshi001	equip/dl_liliangbaoshi_001.unity3d	力量 +10\n镶嵌在装备的[fc4c2f]红色[-]插槽中	1	1	1500	0	10	99
+20001		2	2	2级力量宝石	ItemAtlas:item_hongbaoshi002	equip/dl_liliangbaoshi_001.unity3d	力量 +20\n镶嵌在装备的[fc4c2f]红色[-]插槽中			3000	0	20	99
+20002		2	2	3级力量宝石	ItemAtlas:item_hongbaoshi003	equip/dl_liliangbaoshi_001.unity3d	力量 +30\n镶嵌在装备的[fc4c2f]红色[-]插槽中			4500	0	30	99
+20003		2	2	4级力量宝石	ItemAtlas:item_hongbaoshi004	equip/dl_liliangbaoshi_001.unity3d	力量 +40\n镶嵌在装备的[fc4c2f]红色[-]插槽中			6000	0	40	99
+20004		2	2	5级力量宝石	ItemAtlas:item_hongbaoshi005	equip/dl_liliangbaoshi_001.unity3d	力量 +50\n镶嵌在装备的[fc4c2f]红色[-]插槽中			7500	0	50	99
+20005		2	2	6级力量宝石	ItemAtlas:item_hongbaoshi006	equip/dl_liliangbaoshi_001.unity3d	力量 +60\n镶嵌在装备的[fc4c2f]红色[-]插槽中			9000	0	60	99
+20006		2	2	7级力量宝石	ItemAtlas:item_hongbaoshi007	equip/dl_liliangbaoshi_001.unity3d	力量 +70\n镶嵌在装备的[fc4c2f]红色[-]插槽中			10500	0	70	99
+20007		2	2	8级力量宝石	ItemAtlas:item_hongbaoshi008	equip/dl_liliangbaoshi_001.unity3d	力量 +80\n镶嵌在装备的[fc4c2f]红色[-]插槽中			12000	0	80	99
+20008		2	2	9级力量宝石	ItemAtlas:item_hongbaoshi009	equip/dl_liliangbaoshi_001.unity3d	力量 +90\n镶嵌在装备的[fc4c2f]红色[-]插槽中			13500	0	90	99
+2		2	2	10级力量宝石	ItemAtlas:item_hongbaoshi010	equip/dl_liliangbaoshi_001.unity3d	力量 +100\n镶嵌在装备的[fc4c2f]红色[-]插槽中	5	1	15000	0	100	99
+40112		2	2	1级敏捷宝石	ItemAtlas:item_lvbaoshi001	equip/dl_minjiebaoshi_001.unity3d	敏捷 +10\n镶嵌在装备的[fce22f]绿色[-]插槽中	3	1	1500	0	10	99
+20009		2	2	2级敏捷宝石	ItemAtlas:item_lvbaoshi002	equip/dl_minjiebaoshi_001.unity3d	敏捷 +20\n镶嵌在装备的[fce22f]绿色[-]插槽中			3000	0	20	99
+20010		2	2	3级敏捷宝石	ItemAtlas:item_lvbaoshi003	equip/dl_minjiebaoshi_001.unity3d	敏捷 +30\n镶嵌在装备的[fce22f]绿色[-]插槽中			4500	0	30	99
+20011		2	2	4级敏捷宝石	ItemAtlas:item_lvbaoshi004	equip/dl_minjiebaoshi_001.unity3d	敏捷 +40\n镶嵌在装备的[fce22f]绿色[-]插槽中			6000	0	40	99
+20012		2	2	5级敏捷宝石	ItemAtlas:item_lvbaoshi005	equip/dl_minjiebaoshi_001.unity3d	敏捷 +50\n镶嵌在装备的[fce22f]绿色[-]插槽中			7500	0	50	99
+20013		2	2	6级敏捷宝石	ItemAtlas:item_lvbaoshi006	equip/dl_minjiebaoshi_001.unity3d	敏捷 +60\n镶嵌在装备的[fce22f]绿色[-]插槽中			9000	0	60	99
+20014		2	2	7级敏捷宝石	ItemAtlas:item_lvbaoshi007	equip/dl_minjiebaoshi_001.unity3d	敏捷 +70\n镶嵌在装备的[fce22f]绿色[-]插槽中			10500	0	70	99
+20015		2	2	8级敏捷宝石	ItemAtlas:item_lvbaoshi008	equip/dl_minjiebaoshi_001.unity3d	敏捷 +80\n镶嵌在装备的[fce22f]绿色[-]插槽中			12000	0	80	99
+20016		2	2	9级敏捷宝石	ItemAtlas:item_lvbaoshi009	equip/dl_minjiebaoshi_001.unity3d	敏捷 +90\n镶嵌在装备的[fce22f]绿色[-]插槽中			13500	0	90	99
+20017		2	2	10级敏捷宝石	ItemAtlas:item_lvbaoshi010	equip/dl_minjiebaoshi_001.unity3d	敏捷 +100\n镶嵌在装备的[fce22f]绿色[-]插槽中			15000	0	100	99
+40113		2	2	1级智力宝石	ItemAtlas:item_lanbaoshi001	equip/dl_zhilibaoshi_001.unity3d	智力 +10\n镶嵌在装备的[fce22f]蓝色[-]插槽中	3	1	1500	0	10	99
+20018		2	2	2级智力宝石	ItemAtlas:item_lanbaoshi002	equip/dl_zhilibaoshi_001.unity3d	智力 +20\n镶嵌在装备的[fce22f]蓝色[-]插槽中			3000	0	20	99
+20019		2	2	3级智力宝石	ItemAtlas:item_lanbaoshi003	equip/dl_zhilibaoshi_001.unity3d	智力 +30\n镶嵌在装备的[fce22f]蓝色[-]插槽中			4500	0	30	99
+20020		2	2	4级智力宝石	ItemAtlas:item_lanbaoshi004	equip/dl_zhilibaoshi_001.unity3d	智力 +40\n镶嵌在装备的[fce22f]蓝色[-]插槽中			6000	0	40	99
+20021		2	2	5级智力宝石	ItemAtlas:item_lanbaoshi005	equip/dl_zhilibaoshi_001.unity3d	智力 +50\n镶嵌在装备的[fce22f]蓝色[-]插槽中			7500	0	50	99
+20022		2	2	6级智力宝石	ItemAtlas:item_lanbaoshi006	equip/dl_zhilibaoshi_001.unity3d	智力 +60\n镶嵌在装备的[fce22f]蓝色[-]插槽中			9000	0	60	99
+20023		2	2	7级智力宝石	ItemAtlas:item_lanbaoshi007	equip/dl_zhilibaoshi_001.unity3d	智力 +70\n镶嵌在装备的[fce22f]蓝色[-]插槽中			10500	0	70	99
+20024		2	2	8级智力宝石	ItemAtlas:item_lanbaoshi008	equip/dl_zhilibaoshi_001.unity3d	智力 +80\n镶嵌在装备的[fce22f]蓝色[-]插槽中			12000	0	80	99
+20025		2	2	9级智力宝石	ItemAtlas:item_lanbaoshi009	equip/dl_zhilibaoshi_001.unity3d	智力 +90\n镶嵌在装备的[fce22f]蓝色[-]插槽中			13500	0	90	99
+20026		2	2	10级智力宝石	ItemAtlas:item_lanbaoshi010	equip/dl_zhilibaoshi_001.unity3d	智力 +100\n镶嵌在装备的[fce22f]蓝色[-]插槽中			15000	0	100	99
+40114		2	2	1级体质宝石	ItemAtlas:item_huangbaoshi001	equip/dl_tilibaoshi_001.unity3d	体质 +10\n镶嵌在装备的[fce22f]黄色[-]插槽中	3	1	1500	0	10	99
+16		2	2	2级体质宝石	ItemAtlas:item_huangbaoshi002	equip/dl_tilibaoshi_001.unity3d	体质 +20\n镶嵌在装备的[fce22f]黄色[-]插槽中	3	1	3000	0	20	99
+17		2	2	3级体质宝石	ItemAtlas:item_huangbaoshi003	equip/dl_tilibaoshi_001.unity3d	体质 +30\n镶嵌在装备的[fce22f]黄色[-]插槽中	3	1	4500	0	30	99
+18		2	2	4级体质宝石	ItemAtlas:item_huangbaoshi004	equip/dl_tilibaoshi_001.unity3d	体质 +40\n镶嵌在装备的[fce22f]黄色[-]插槽中	3	1	6000	0	40	99
+19		2	2	5级体质宝石	ItemAtlas:item_huangbaoshi005	equip/dl_tilibaoshi_001.unity3d	体质 +50\n镶嵌在装备的[fce22f]黄色[-]插槽中	4	1	7500	0	50	99
+20		2	2	6级体质宝石	ItemAtlas:item_huangbaoshi006	equip/dl_tilibaoshi_001.unity3d	体质 +60\n镶嵌在装备的[fce22f]黄色[-]插槽中	4	1	9000	0	60	99
+21		2	2	7级体质宝石	ItemAtlas:item_huangbaoshi007	equip/dl_tilibaoshi_001.unity3d	体质 +70\n镶嵌在装备的[fce22f]黄色[-]插槽中	4	1	10500	0	70	99
+22		2	2	8级体质宝石	ItemAtlas:item_huangbaoshi008	equip/dl_tilibaoshi_001.unity3d	体质 +80\n镶嵌在装备的[fce22f]黄色[-]插槽中	4	1	12000	0	80	99
+23		2	2	9级体质宝石	ItemAtlas:item_huangbaoshi009	equip/dl_tilibaoshi_001.unity3d	体质 +90\n镶嵌在装备的[fce22f]黄色[-]插槽中	5	1	13500	0	90	99
+24		2	2	10级体质宝石	ItemAtlas:item_huangbaoshi010	equip/dl_tilibaoshi_001.unity3d	体质 +100\n镶嵌在装备的[fce22f]黄色[-]插槽中	5	1	15000	0	100	99

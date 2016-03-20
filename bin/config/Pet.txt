@@ -1,0 +1,41 @@
+﻿int	string	string	string	int	string	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int
+Id	Icon	Model	Effect	AttackSkillId	Des	DamageType	PetType	PetClass	Generation	CatchLevel	DowerMin	DowerMax	UnderstandMin	UnderstandMax	BreedMax	Str	StrLevelup	Wit	WitLevelup	Dex	DexLevelup	Vit	VitLevelup	CatchEffect
+#ID主键, 关联道具表Id	宠物头像图标	宠物模型	宠物特效	普通攻击技能id	程序不用的注释	伤害类型	宠物战斗类型	宠物物种	代数	捕捉等级	天赋下限	天赋上限	悟性下限	悟性上限	可繁殖次数	力量	升级力量加值	智力	升级智力加值	敏捷	升级敏捷加值	体力	升级体力加值	被捕捉状态特效
+6	Images/head/pet_xiaoemo	pet/pet_xiaoemo.unity3d	44			1	1	1	1	1	1	5	1	3	1	100	1	100	1	100	1	100	1	37
+60001	Images/head/pet_xiaoemo	pet/pet_xiaoemo.unity3d	44			1	1	1	1	1	1	5	5	7	1	100	1	100	1	100	1	100	1	37
+60002	Images/head/pet_xiaoemo	pet/pet_xiaoemo.unity3d	44			1	1	1	1	1	1	5	8	10	1	100	1	100	1	100	1	100	1	37
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

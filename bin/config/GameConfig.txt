@@ -1,0 +1,141 @@
+﻿string	string	string	string
+Key	Value	ValueType	Remark
+#主键	值	值类型(作为数据检查依据)	备注
+UnattunedChance1	0	int	未鉴定白 : 常量表UnattunedChance1
+UnattunedChance2	0	int	未鉴定绿 : 常量表UnattunedChance2
+UnattunedChance3	30	int	未鉴定蓝 : 常量表UnattunedChance3
+UnattunedChance4	50	int	未鉴定紫 : 常量表UnattunedChance4
+UnattunedChance5	100	int	未鉴定橙 : 常量表UnattunedChance5
+StrAtkMin	1	int	每点力量提供小攻
+StrAtkMax	2	int	每点力量提供大攻
+DexDef	1	int	每点敏捷提供物防
+DexMdef	1	int	每点敏捷提供魔防
+WitMtkMin	1	int	每点智力提供小魔攻
+WitMtkMax	2	int	每点智力提供大魔攻
+VitLife	10	int	每点体力提供生命上限
+IntensifyLimit1	7	int	稀有度为1的装备强化上限
+IntensifyLimit2	7	int	稀有度为2的装备强化上限
+IntensifyLimit3	9	int	稀有度为3的装备强化上限
+IntensifyLimit4	11	int	稀有度为4的装备强化上限
+IntensifyLimit5	13	int	稀有度为5的装备强化上限
+PetQualityBonus1	1000	int	宠物品质加成普通 : 基础四维*PetQualityBonus1,数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetQualityBonus2	2000	int	宠物品质加成优秀 : 基础四维*PetQualityBonus2,数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetQualityBonus3	3000	int	宠物品质加成精良 : 基础四维*PetQualityBonus3,数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetQualityBonus4	4000	int	宠物品质加成完美 : 基础四维*PetQualityBonus4,数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetQualityBonus5	5000	int	宠物品质加成无双 : 基础四维*PetQualityBonus5,数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetDowerBonus1	1000	int	宠物天赋加成普通 : 基础四维*PetDowerBonus1,数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetDowerBonus2	2000	int	宠物天赋加成优秀 : 基础四维*PetDowerBonus2,数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetDowerBonus3	3000	int	宠物天赋加成精良 : 基础四维*PetDowerBonus3,数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetDowerBonus4	4000	int	宠物天赋加成完美 : 基础四维*PetDowerBonus4,数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetDowerBonus5	5000	int	宠物天赋加成无双 : 基础四维*PetDowerBonus5,数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+DropEquipLevelMin	0	int	掉落最低强化等级常量
+DropEquipLevelMax	5	int	掉落最高强化等级常量
+StrScore	15	int	力量战斗力系数
+DexScore	10	int	敏捷战斗力系数
+WitScore	15	int	智力战斗力系数
+VitScore	10	int	体力战斗力系数
+AtkMinScore	10	int	物攻下限战斗力系数
+AtkMaxScore	10	int	物攻上限战斗力系数
+DefScore	5	int	物理防御战斗力系数
+MdefScore	5	int	魔法防御战斗力系数
+MtkMinScore	10	int	魔攻下限战斗力系数
+MtkMaxScore	10	int	魔攻上限战斗力系数
+HpScore	1	int	生命上限战斗力系数
+CrtChanceScore	1	int	幸运一击概率战斗力系数
+CrtBonusScore	1	int	幸运一击倍率战斗力系数
+BrilliantChanceScore	1	int	卓越一击战斗力系数
+DefPierceScore	5	int	物理护甲穿透战斗力系数
+MdefPierceScore	5	int	魔法护甲穿透战斗力系数
+IgnoreAllDefScore	1	int	无视防御概率战斗力系数
+DoubleChanceScore	1	int	双倍伤害概率战斗力系数
+MoveSpeedScore	1	int	移动速度战斗力系数
+BonusToArmorScore	1	int	对BOSS护甲伤害提升战斗力系数
+BonusToMonsterScore	1	int	对怪物伤害提升战斗力系数
+ExpUpScore	1	int	经验提升战斗力系数
+CrtChanceResistScore	1	int	抗幸运一击概率战斗力系数
+CrtBonusResistScore	1	int	抗幸运一击伤害战斗力系数
+ReboundDmgScore	1	int	反伤比例战斗力系数
+HpBonusScore	1	int	生命值提升百分比战斗力系数
+DmgReduceScore	1	int	伤害减少百分比战斗力系数
+KillCureScore	1	int	击杀怪物后恢复生命战斗力系数
+AllAtkBonusScore	1	int	攻击力增加百分比战斗力系数
+MFScore	1	int	mf值战斗力系数
+DropPropGuardTime	30	int	掉落物品拾取保护时间
+DropPropExistTime	120	int	掉落物品存在时间
+ChanceBase	10000	int	需要计算概率时的基数
+TeamDungeonWaitTime	30	int	组队副本等待队友时间
+DungeonSelectReawardTime	30	int	副本胜利选择奖励超时时间
+DungeonExitTime	10	int	副本退出确认时间
+DualWeaponAmend	0.625	float	双持武器时对于武器基础属性值的修正系数
+BusterKillDaily	10	int	每日玩家只能做常量表BusterKillDaily次屠魔任务.
+DropEquipCheckChance	10000	int	默认以常量表 DropEquipCheckChance 的值决定掉落装备的已鉴定概率, 万分之.
+SKILL_SHORTCUT_SIZE	5	int	技能栏可装配个数
+DropGetSpeedCoefficient	0.2	float	拾取物品飞行速度系数（moveTime = DropGetSpeedCoefficient * Dis + DropGetSpeed）
+DropGetSpeed	1	float	拾取物品飞行速度(飞行最小时间)
+DropTurnSpeed	1500	int	掉落物品翻滚速度
+DropUpSpeed	10	int	掉落物品上抛速度
+DropDownSpeed	10	int	掉落物品下落速度
+DropReceiveDistance	0.1	float	拾取道具后，道具飞向角色过程中，当掉落装备距离角色小于该距离时即销毁掉落装备
+DropNameHigh	0.7	float	掉落物品名称距离掉落装备的高度
+DropReceiveHigh	0.9	float	拾取后，飞向角色的高度，腰部以上的位置
+WorldNpcDropGuardTime	30	int	世界NPC掉落保护时间
+WorldNpcDropExistTime	120	int	世界NPC掉落存在时间
+WorldNpcGetDistance	6	int	世界NPC掉落拾取距离
+WorldNpcDropMinTime	1	int	世界NPC掉落最小存在时间
+WorldBossDropGuardTime	30	int	世界BOSS掉落保护时间
+WorldBossDropExistTime	120	int	世界BOSS掉落存在时间
+WorldBossGetDistance	1	int	世界BOSS掉落拾取距离
+WorldBossDropMinTime	5	int	世界BOSS掉落最小存在时间
+WorldPlayerDropGuardTime	30	int	世界Player掉落保护时间
+WorldPlayerDropExistTime	120	int	世界Player掉落存在时间
+WorldPlayerGetDistance	1	int	世界Player掉落拾取距离
+WorldPlayerDropMinTime	5	int	世界Player掉落最小存在时间
+InstanceDropGuardTime	120	int	副本掉落保护时间
+InstanceDropExistTime	120	int	副本掉落存在时间
+InstanceGetDistance	6	int	副本掉落拾取距离
+InstanceDropMinTime	1	int	副本掉落最小存在时间
+DropSmallCoin	1000	int	掉落金币数量小于该值时显示小堆金币(不含等于)
+DropMidCoin	3000	int	掉落金币数量大于等于DropSmallCoin并且小于该值时显示中堆金币(不含等于)，大于该值时显示大堆金币
+ArmorRecoverTime	10	int	护甲值回复时间
+ArmorWaitTime	10	int	护甲值等待回复时间（未被完全击破时，等待X秒不受攻击，则护甲值开始恢复）
+HintGetItemQuality	2	int	和道具品质相同的排序，1白、2绿、3蓝、4紫、5金、6红
+HpBallrecover	0.3	float	血球回复总血量
+HpBallrate	1	int	血球恢复频率（几秒一恢复）
+HpBallevery	0.03	float	血球每次恢复数值百分比
+PetVariationBonus1	5000	int	宠物1级变异属性加成 : 确定的变异属性 * Pet VariationBonus1 数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetVariationBonus2	5000	int	宠物2级变异属性加成 : 确定的变异属性 * Pet VariationBonus1 数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetVariationBonus3	5000	int	宠物3级变异属性加成 : 确定的变异属性 * Pet VariationBonus1 数值表示提升了原品质之万分之多少, 如1000, 表示是基础值的1.1倍
+PetCheckPrice	500	int	宠物鉴定价格参数, 鉴定费用 = PetCheckPrice*宠物捕捉等级 
+PetQualityProbability1	4000	int	品质出现可能性(/10000)
+PetQualityProbability2	3000	int	品质出现可能性(/10000)
+PetQualityProbability3	1500	int	品质出现可能性(/10000)
+PetQualityProbability4	1000	int	品质出现可能性(/10000)
+PetQualityProbability5	500	int	品质出现可能性(/10000)
+PetRebirthPropId	9	int	宠物还童所需消耗的道具id
+PetRebirthPropAmount	1	int	宠物还童所需消耗的道具数量
+PetMaxComprehension	10	int	宠物最大悟性值
+PetWakeUpPrice	10000	int	悟性提升花费 = WakeUpPrice * 当前主宠悟性值
+PetSkillGetParameter	160	int	升级领悟技能参数, 宠物升级领悟技能的可能性= 宠物悟性/SkillGetParameter
+PetInitialSkillProbability1	1000	int	宠物初始时应该包含的技能数量可能性, 总和应该为10000,表示 /10000
+PetInitialSkillProbability2	1000	int	
+PetInitialSkillProbability3	1000	int	
+PetInitialSkillProbability4	1000	int	
+PetInitialSkillProbability5	1000	int	
+PetInitialSkillProbability6	1000	int	
+PetInitialSkillProbability7	1000	int	
+PetInitialSkillProbability8	1000	int	
+PetInitialSkillProbability9	1000	int	
+PetInitialSkillProbability10	1000	int	
+CatchPetTime	10	int	抓宠物所需要时间，单位秒。
+intensify_eat_alertrank	3	int	如果本次吞噬的目标装备的稀有度在N以上或是装备的强化等级高于X, 则需要显示珍贵装备吞噬提示
+intensify_eat_alertlevel	7	int	如果本次吞噬的目标装备的稀有度在N以上或是装备的强化等级高于X, 则需要显示珍贵装备吞噬提示
+PetReviveTime	60	int	宠物复活时间, 单位秒
+TeamMaxSendApplyAmount	10	int	组队保护时间内发出的最大邀请数量
+TeamMaxReceiveApplyAmount	20	int	组队保护时间内收到的的最大邀请数量
+TeamMaxSendApplyCoolTime	10	int	组队发出邀请的保护时间(秒)
+TeamMaxMemberSize	4	int	队伍最大成员数
+LuckyDamageBonus	120	int	幸运一击默认伤害倍数常量 LuckyDamageBonus : 填写的如果是 120, 则表示加成系数为1.2 即百分之
+BrilliantDamageBonus	150	int	卓越一击伤害伤害倍数常量 BrilliantDamageBonus 
+DoubleDamageBonus	200	int	双倍伤害伤害倍数常量 DoubleDamageBonus
+MagickeyExpEquipParameter	0.05	float	法宝吞噬装备获得的经验值通过公式计算,  法宝获得经验 = 装备战斗力评分*修正系数常量:MagickeyExpEquipParameter
+PetRebornGold	10	int	宠物还童需要扣除一定数量的游戏金币, 常量PetRebornGold保存该值 

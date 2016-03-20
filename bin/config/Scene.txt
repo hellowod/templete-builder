@@ -1,0 +1,9 @@
+﻿int	string	int	string	string	string	string	int	int	int
+Id	Name	SceneType	Path	NameImage	SceneBlock	SceneElement	MainSoundId	FieldSoundId	IsPVP
+#主键(场景id)	备注(场景名称)	场景类型	场景文件路径	进入场景时显示场景名称	可行走区域	场景元素初始化配置	主背景音ID	野外北京音ID	该场景对应的地图是否允许PVP1可0不可
+1	创建角色	1	map/chuangjianjuese.unity3d				2	3	0
+1002	勇者大陆	2	map/yongzhedalu.unity3d	UI/Images/dituming_yongzhedalu			2	3	1
+1003	冰风谷	2	map/bingfenggu.unity3d	UI/Images/dituming_bingfenggu			0	0	0
+2001	地下城副本1	3	map/dixiacheng.unity3d	UI/Images/dituming_dixiacheng			39	0	0
+2002	测试副本数据	3		UI/Images/dituming_ceshi			0	0	0
+1001	仙踪林	2	map/xianzonglin.unity3d	UI/Images/dituming_xianzonglin			0	0	0

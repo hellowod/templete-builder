@@ -1,0 +1,7 @@
+﻿int	string	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int
+Id	Name	SuitId	Count	Str	Dex	Wit	Vit	AtkMin	AtkMax	Def	Mdef	MtkMin	MtkMax	Hp	CrtChance	CrtBonus	BrilliantChance	DefPierce	MdefPierce	IgnoreAllDef	DoubleChance	MoveSpeed	BonusToArmor	BonusToMonster	ExpUp	CrtChanceResist	CrtBonusResist	ReboundDmg	HpBonus	DmgReduce	KillCure	AllAtkBonus	MF
+#主键	套装名称	套装id	对应的套装穿戴数量	力量	敏捷	智力	体力	物攻下限	物攻上限	物理防御	魔法防御	魔攻下限	魔攻上限	生命上限	幸运一击概率	幸运一击倍率	卓越一击概率	物理护甲穿透	魔法护甲穿透	无视防御概率	双倍伤害概率	移动速度	对BOSS护甲伤害提升	对怪物伤害提升	经验提升	抗幸运一击概率	抗幸运一击伤害	反伤比例	生命值提升百分比	伤害减少百分比	击杀怪物后恢复生命	攻击力增加百分比	掉宝加成值
+1	神恩赐福	9999	2	10																													
+2	铁匠汉斯	9999	4											100																			
+3	远古呐喊	9999	6												123																		
+4	神秘之曜	9999	8																	1128													

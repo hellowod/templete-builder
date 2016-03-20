@@ -1,0 +1,12 @@
+﻿int	string	string	string	string	int
+JobType	Job	HeadIcon	Desc	Model	Sound
+#ID(也作为职业类型)	职业名称	角色头像	角色描述	角色模型	音效
+1	战 士	CreateRoleAtlas:createrole_zs	战士：勇者大陆近战职业，可转职成狂战士或守护者		4
+2	狂战士	CreateRoleAtlas:createrole_zs	狂战士：擅长近战攻击，拥有强大的物理输出能力。	player_hd/zs_hd.unity3d	4
+3	守护者	CreateRoleAtlas:createrole_zs	守护者：坦克型职业，极强的防御与较高的血量。	player_hd/zs_hd.unity3d	4
+4	弓 手	CreateRoleAtlas:createrole_gs	弓手：精灵弓手，可转职成神射手和召唤师。		56
+5	神射手	CreateRoleAtlas:createrole_gs	神射手：精灵族的最强弓手，远程输出型职业。	player_hd/gs_hd.unity3d	56
+6	召唤师	CreateRoleAtlas:createrole_gs	召唤师：召唤魔灵作战，也可以治疗的职业。	player_hd/gs_hd.unity3d	56
+7	法 师	CreateRoleAtlas:createrole_fs	法师：法系职业，可转职成魔导师和黑巫师		50
+8	魔导师	CreateRoleAtlas:createrole_fs	魔导师：法系炮台职业，能造成大范围的伤害。	player_hd/fs_hd.unity3d	50
+9	黑巫师	CreateRoleAtlas:createrole_fs	黑巫师：擅长控制与折磨敌人的职业，法师中的死神。	player_hd/fs_hd.unity3d	50

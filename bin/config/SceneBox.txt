@@ -1,0 +1,8 @@
+﻿int	string	int	string	string	int	int
+Id	Comment	Quality	Name	ModelPath	ExistEffect	OpenEffect
+#主键	备注	宝箱品质	名称	模型路径	存在特效id（特效表）	打开特效id
+1		1	普通宝箱	box/box_003.unity3d	32	34
+2		2	精良宝箱	box/box_003.unity3d	32	34
+3		3	稀有宝箱	box/box_003.unity3d	33	35
+4		4	史诗宝箱	box/box_003.unity3d	33	35
+5		5	至尊宝箱	box/box_003.unity3d	33	36

@@ -1,0 +1,7 @@
+﻿int	int	int	int	int	string	int	string	int	string	int	string	int	string	int	string	string	string
+Id	Type	SceneType	HPup	EliteAtk	EliteAtkName	EliteCrtChance	EliteCrtChanceName	EliteImmuneRestrict	EliteImmuneRestrictName	EliteHP	EliteHPName	EliteDef	EliteDefName	EliteMdef	EliteMdefName	HaloList	MatRes
+#主键	类型	所属场景类型3副本，2世界	血量变化百分比	攻击力提升万分比	附加名称字典	精英的幸运一击概率加值	附加名称字典	精英是否免疫控制	附加名称字典	精英血量上限提升万分比	附加名称字典	精英物理防御增加百分比	附加名称字典	精英魔法防御增加百分比	附加名称字典	可选光环列表ID,光环作为怪物被动技能, 需要有模型附加的特效	流光材质路径
+1	1	3	50000	2000	凶狠的	2000	暴躁的	1	蛮横的	2000	强命的	2000	坚硬的	2000	魔肤的		Material/MonsterElite/Sliver_Monster
+2	2	3	100000	3000	凶狠的	3000	暴躁的	1	蛮横的	3000	强命的	3000	坚硬的	3000	魔肤的	1_2_3_4_5	Material/MonsterElite/Golden_Monster
+3	1	2	30000	2000	凶狠的	2000	暴躁的	1	蛮横的	2000	强命的	2000	坚硬的	2000	魔肤的		Material/MonsterElite/Sliver_Monster
+4	2	2	60000	3000	凶狠的	3000	暴躁的	1	蛮横的	3000	强命的	3000	坚硬的	3000	魔肤的	1_2_3_4_5	Material/MonsterElite/Golden_Monster

@@ -1,0 +1,4 @@
+﻿int	int	int	string	string	string	int	int	int	int	int	int
+Id	MonsterLevelMin	MonsterLevelMax	DropItemList	DropChanceList	DropCountList	DropCount	EquipmentRarity1Chance	EquipmentRarity2Chance	EquipmentRarity3Chance	EquipmentRarity4Chance	EquipmentRarity5Chance
+#id	怪物等级下限	怪物等级上限	掉落道具列表	掉落道具概率万分比	掉落数量列表	掉落次数	稀有度1装备掉落权重	稀有度2装备掉落权重	稀有度3装备掉落权重	稀有度4装备掉落权重	稀有度5装备掉落权重
+1	1	300	40121	2500	1	1	5000	4000	3000	2000	1000

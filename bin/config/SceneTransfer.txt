@@ -1,0 +1,4 @@
+﻿int	string	string	string
+Id	Name	Des	TargetList
+#主键	传送点名称	非程序用注释	传送目标副本的id列表
+1	地下城废墟	勇者大陆到地下城	1_2

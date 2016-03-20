@@ -1,0 +1,5 @@
+﻿int	string	string	string	int	string	string	int	int	int	int
+Id	MarkDes	NameImg	BgImg	Unlocklevel	Name	Des	SingleWeekCount	TeamWeekCount	SceneID	PrepositionCopy
+#主键	程序不用的注释数据	副本名称图片文字	副本界面背景图	解锁等级	副本名称	副本描述	单人难度周次数限制	组队难度周次数限制	场景表场景id	前置副本ID
+1	第一个副本	dituming_dixiacheng	DungeonAtlas:dungeon_tu1	1	地下城	这里阴森、恐怖，大量亡灵生物蛰伏于此，惊扰着勇者大陆的土地。作为勇者大陆的勇士，你需要还大陆一份安宁。	20	5	2001	0
+2	传送点测试数据	dituming_dixiacheng	DungeonAtlas:dungeon_tu1	1	地下城	地下城的主人，伟大的黑暗帝国领主——加内特国王长眠于此。	20	5	2001	1

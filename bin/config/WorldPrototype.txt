@@ -1,0 +1,6 @@
+﻿int	int	string	string	int	string	string	string	int	int	int	int	int	float	float	int	int	int	int
+Id	SenceId	Name	NameImg	DropCount	DropItemList	DropChanceList	DropCountList	EquipmentRarity1Chance	EquipmentRarity2Chance	EquipmentRarity3Chance	EquipmentRarity4Chance	EquipmentRarity5Chance	ReliveX	ReliveZ	EliteGoldMax	EliteGoldRefreshTime	EliteBlueMax	EliteBlueRefreshTime
+#主键(场景id)	场景配置数据id	备注(场景名称)	图片名称	掉落次数	掉落道具列表	掉落道具概率	掉落数量列表	稀有度1装备掉落权重	稀有度2装备掉落权重	稀有度3装备掉落权重	稀有度4装备掉落权重	稀有度5装备掉落权重	复活点x	复活点Z	金色精英怪最大数量	金色精英怪检测刷新时间间隔（分钟）	蓝色精英怪最大数量	蓝色精英怪检测刷新时间间隔（分钟）
+1	1002	勇者大陆	dituming_yongzhedalu	1									126	75	10	2	5	1
+2	1003	冰风谷	dituming_bingfenggu	1									70	100	3	1	2	1
+3	1001	仙踪林	dituming_xianzonglin	1									70	100	3	1	2	1

@@ -1,0 +1,348 @@
+﻿string	string	string
+Key	DictionaryCH	Des
+#主键	值	备注说明
+d_EquipClass_1	头盔	
+d_EquipClass_2	胸甲	
+d_EquipClass_3	腿甲	
+d_EquipClass_4	护手	
+d_EquipClass_5	鞋子	
+d_EquipClass_6	戒指	
+d_EquipClass_7	项链	
+d_EquipClass_8	盾牌	
+d_EquipClass_9	副手	
+d_EquipClass_10	单手	
+d_EquipClass_11	双手	
+d_EquipClass_12	翅膀	
+d_EquipClass_13	法宝	
+d_RankLevel_1	普通	
+d_RankLevel_2	优秀	
+d_RankLevel_3	精良	
+d_RankLevel_4	史诗	
+d_RankLevel_5	传说	
+d_RankLevel_6	神器	
+d_herojob_1	剑士	
+d_herojob_2	狂战士	
+d_herojob_3	守护者	
+d_herojob_4	弓手	
+d_herojob_5	神射手	
+d_herojob_6	召唤师	
+d_herojob_7	法师	
+d_herojob_8	魔导师	
+d_herojob_9	恶魔术士	
+d_cizhui_outstanding	卓越	
+d_cizhui_1	朴实	
+d_cizhui_2	优质	
+d_cizhui_3	耐用	
+d_cizhui_4	增强	
+d_cizhui_5	微光	
+d_cizhui_6	闪耀	
+d_cizhui_7	灿烂	
+d_cizhui_8	辉煌	
+d_bind	已绑定	
+d_unbind	未绑定	
+d_rank_name	品质：	
+d_availible_level	使用等级：	
+d_unidentified	未鉴定	
+d_unknow	？？？	
+d_use_condition	使用条件	
+d_basic_property	基础属性	
+d_add_property	附加属性	
+d_ex_property	卓越属性	
+d_gem_slot	宝石孔	
+d_set_property	套装奖励	
+d_level1_property	一级属性	
+d_level2_property	二级属性	
+d_variation	变异:	
+d_catch_level	捕捉等级:	
+d_sex	性别:	
+d_reproduce	可繁殖:	
+d_talent	天赋:	
+d_realize_ablity	领悟能力:	
+d_pet_skill_list	技能列表	
+d_sell_price	出售价格:	
+d_unsell	不可出售	
+d_equip	装备	
+d_pet	宠物	
+d_soulbox	魂器	
+d_gem	宝石	
+d_gift	礼包	
+d_drug	药水	
+d_material	材料	
+d_task	任务	
+d_btn_equip	装备	
+d_btn_takeoff	卸下	
+d_btn_strength	强化	
+d_btn_gem	宝石	
+d_btn_identify	鉴定	
+d_btn_sell	出售	
+d_btn_carry	携带	
+d_btn_embed	镶嵌	
+d_btn_use	使用	
+d_btn_batch_use	批量使用	
+d_btn_compound	合成	
+d_att_liliang	力量	
+d_att_minjie	敏捷	
+d_att_zhili	智力	
+d_att_tizhi	体质	
+d_att_phyattack_min	物攻下限	
+d_att_phyattack_max	物攻上限	
+d_att_magattack_min	魔攻下限	
+d_att_magattack_max	魔攻上限	
+d_att_hp	生命上限	
+d_att_phyattack	物理攻击	
+d_att_magattack	魔法攻击	
+d_att_phydefend	物理防御	
+d_att_magdefend	魔法防御	
+d_att_lucky_pro	幸运一击	
+d_att_lucky_mul	幸运伤害	
+d_att_perfect_pro	卓越一击概率	
+d_att_physics_bite	物理穿透	
+d_att_magic_bite	魔法穿透	
+d_att_nodefense_bite	无视防御概率	
+d_att_double_bite	双倍伤害概率	
+d_att_attack_num	攻击力提升	
+d_att_delucky_pro	幸运一击抵抗	
+d_att_delucky_num	幸运一击减免	
+d_att_hpup_per	生命值提升	
+d_att_hurtless_num	伤害减少	
+d_att_movespeed	移动速度	
+d_att_reflect_per	伤害反弹	
+d_att_bossdefendup_per	Boss护盾伤害	
+d_att_attackmonster_num	对怪物伤害	
+d_att_exp_per	经验提升	
+d_att_killhp_num	杀怪恢复	
+d_att_nbitem_pro	掉宝加成	
+d_damage_type_physical	物理攻击	
+d_damage_type_magic	魔法攻击	
+d_btn_entergame	进入游戏	
+d_btn_createrole	创建角色	
+d_lable_single_left_time	单人剩余次数：	
+d_lable_team_left_time	组队剩余次数：	
+d_lable_dungeon_update_time	每周次数将在周一3:00刷新	
+d_lable_single_left_time2	单人次数：	
+d_lable_team_left_time2	组队次数：	
+d_lable_reco_fight_grade	推荐战斗力：	
+d_lable_cost_sp	每次消耗体力：	
+d_lable_danren	单人	
+d_lable_zudui	组队	
+d_lable_duiwuliebiao	队伍列表	
+d_lable_haoyouliebiao	好友列表	
+d_lable_no_team	当前没有队伍	
+d_lable_no_friend	当前没有好友在线	
+d_lable_jinrufuben	进入副本	
+d_lable_kuaisupipei	快速匹配	
+d_lable_chuangjianduiwu	创建队伍	
+d_lable_likaiduiwu	离开队伍	
+d_lable_zhengzhaoduiyou	征召队友	
+d_btn_yaoqing	邀请	
+d_btn_jiaweihaoyou	加为好友	
+d_btn_tishengduizhang	提升队长	
+d_btn_chakanzhuangbei	查看装备	
+d_btn_liaotian	聊   天	
+d_btn_yaoqingduiwu	邀请队伍	
+d_dungeon_condition	角色达到{0:d}级	
+d_pmt_msg1	请输入正确的数量	
+d_lable_easy	普  通	
+d_lable_normal	困  难	
+d_lable_hard	炼  狱	
+d_lable_saodang	扫荡({0:s})	
+msg_bagnospace	背包空间不足, 请先整理背包空间.	
+msg_goldnotenough	金币不足.	
+bt_confirm	确定	
+bt_cancel	取消	
+function_juese	穿更好的装备	
+function_stronge	强化你的装备	
+function_pet	提升亲密伙伴	
+function_skill	升级技能	
+function_tishengziwo	提升自我，再次挑战！	
+bt_exit_dungeon	离开副本	
+bt_relive	复活	
+d_role_info_fightstrength	战斗力:	
+d_role_info_alliance	所属战盟:	
+d_role_info_gold	金币数量:	
+d_role_info_unbindingdiamond	非绑定钻石数量:	
+d_role_info_bindingdiamond	绑定钻石数量:	
+d_role_info_shopticket	商城奖券数量:	
+d_role_info_energy	体力值:	
+d_role_info_pvppoint	竞技场点数:	
+d_role_info_starpoint	星币:	
+d_role_info_monthcardtime	月卡持续时间:	
+d_role_info_killnum	杀戮数:	
+d_role_info_gsranking	战斗力排名:	
+d_role_info_pvpranking	竞技场排名:	
+d_role_info_moneyranking	财富榜排名:	
+d_role_info_achievementpoint	成就点数:	
+d_role_info_titlenum	头衔获得数量:	
+d_role_info_currenttitle	当前头衔:	
+d_excellent	卓越的 	
+d_pagecnt_prefix	第	
+d_pagecnt_last	页	
+d_perfect	卓越一击	
+d_lucky	幸运一击	
+d_double	双倍伤害	
+d_reflect	反弹伤害	
+d_ignore_def	无视防御	
+d_sure_sell	确定要出售吗	
+d_pet_male	雄性	
+d_pet_female	雌性	
+d_pet_genius0	无	
+d_pet_genius1	普通	
+d_pet_genius2	优秀	
+d_pet_genius3	精良	
+d_pet_genius4	完美	
+d_pet_genius5	史诗	
+d_qualitycolor_1	[D1CCBF]{0}[-]	
+d_qualitycolor_2	[87E84F]{0}[-]	
+d_qualitycolor_3	[4BACFF]{0}[-]	
+d_qualitycolor_4	[D877FF]{0}[-]	
+d_qualitycolor_5	[FFC053]{0}[-]	
+d_qualitycolor_6	[FF5644]{0}[-]	
+intensify_levelmax	强化等级达到上限,不能继续强化.	
+intensify_material_not_enough	材料不足	
+intensify_equipbind	强化装备将导致该装备变为绑定状态,是否继续强化?	
+intensify_failbackrank	本次失败将降低{0}个强化等级	
+intensify_ownruby	该装备镶嵌有宝石, 请先摘除全部宝石	
+intensify_bt_autoremove	前往摘除	强化-吞噬相关 - 按钮文字
+intensify_magickey_levellimit	法宝等级不能超过角色等级, 无法继续吞噬	
+checkbox_notip	本次登录不再提示	
+intensify_rarityequipment	该装备较为珍贵,吞噬前请先确认是否不再需要该装备.	
+equip_equiped	[FCE22f]装备中[-]	
+equip_levelnotenough	[fc4c2f]等级不足[-]	
+equip_notequip	[9e9e9e]未装备[-]	
+intensify_sucprobability	{0}成功	
+intensify_needmaterial	需要材料(优先使用绑定材料)	
+intensify_guarantee	幸运值({0}/{1})	
+intensify_guaranteedes	强化失败将得到幸运值,幸运值满强化必定成功.	
+intensify_bt_auto	自动强化	
+equip_cantintensify	[9e9e9e]达到上限[-]	
+intensify_title_equipedmagickey	当前装备的法宝	
+intensify_title_magickeyexp	吞噬经验	
+intensify_magickey_des	吞噬进度满之后法宝将提高强化等级\n吞噬法宝将获得被吞噬法宝的全部经验\n高装备等级的法宝需要更多的吞噬经验	
+intensify_title_eatequip	点击吞噬背包中的装备	
+intensify_des_eatequip	吞噬后装备将消失	
+equip_haveruby	镶有宝石	
+intensify_eatequip_exp	经验:	
+intensify_title_certainlysuc	天赐100%	
+d_btn_eat	吞噬	
+intensify_rankmax_des	该装备已经强化至满级	
+d_ui_notask	当前没有任务。	
+d_ui_noteam	当前没有队伍。	
+intensify_noequipmagickey	当前未装备任何法宝	
+d_pet_bq_1	宠物属性	
+d_pet_bq_2	技能学习	
+d_pet_bq_3	宠物重生	
+d_pet_bq_4	悟性提升	
+d_pet_main_1	基础属性	
+d_pet_main_2	详细属性	
+d_pet_main_3	品质	
+d_pet_main_4	天赋	
+d_pet_main_5	变异	
+d_pet_main_6	悟性	
+d_pet_main_7	力量	
+d_pet_main_8	智力	
+d_pet_main_9	敏捷	
+d_pet_main_10	体质	
+d_pet_main_11	传说	
+d_pet_main_12	史诗	
+d_pet_main_13	精良	
+d_pet_main_14	优秀	
+d_pet_main_15	普通	
+d_pet_main_16	第1代	
+d_pet_main_17	第2代	
+d_pet_main_18	战斗力	
+d_pet_main_19	{0}级开放	
+d_pet_main_20	改名	
+d_pet_main_21	技能栏	
+d_pet_main_22	主	
+d_pet_main_23	初	
+d_pet_main_24	中	
+d_pet_main_25	高	
+d_pet_main_26	封   印	
+d_pet_main_27	出   战	
+d_pet_main_28	休   息	
+d_pet_main_29	{0}等级开放	角色等对应的开启宠物携带槽
+d_pet_property_1	宠物类型{0}	变量里去取宠物类型对应的字典信息
+d_pet_property_2	血战	对应宠物表中的类型
+d_pet_property_3	物攻	对应宠物表中的类型
+d_pet_property_4	法攻	对应宠物表中的类型
+d_pet_property_5	升级经验	
+d_pet_property_6	生命上限	
+d_pet_property_7	物理攻击	
+d_pet_property_8	魔法攻击	
+d_pet_property_9	物理防御	
+d_pet_property_10	魔法防御	
+d_pet_property_11	幸运一击概率	
+d_pet_property_12	卓越一击概率	
+d_pet_property_13	双倍伤害概率	
+d_pet_property_14	物理穿透	
+d_pet_property_15	魔法穿透	
+d_pet_property_16	幸运一击	
+d_pet_property_17	卓越一击	
+d_pet_property_18	双倍伤害	
+d_pet_skill_learn_1	技能学习	
+d_pet_skill_learn_2	学习	
+d_pet_skill_learn_3	放入技能书	
+d_pet_skill_learn_4	放入未学过或已有技能的更高级技能书	
+d_pet_skill_tips_1	下一级别	宠物技能tips面板
+d_pet_skill_tips_2	遗忘	
+d_pet_skill_tips_3	确认遗忘技能{0}	变量里是技能的名称
+d_pet_rebirth_1	重生可以刷新宠物的品质	
+d_pet_rebirth_2	宠物重生后，宠物等级为1，技能清零。	
+d_pet_rebirth_3	开始重生	
+d_pet_iq_1	想要提升的宠物	
+d_pet_iq_2	捕捉等级:	
+d_pet_iq_3	悟性	
+d_pet_iq_4	添加宠物	
+d_pet_iq_5	放入消耗的宠物	
+d_pet_iq_6	成功率{0}%	
+d_pet_iq_7	提升悟性	
+d_pet_breed_1	放入雄性宠物	
+d_pet_breed_2	放入雌性宠物	
+d_pet_breed_3	繁殖预览	
+d_pet_breed_4	当前不可预览	
+d_pet_breed_5	预计结果	
+d_pet_breed_6	开始繁殖	
+d_pet_breed_7	选择宠物	
+d_pet_breed_8	正在繁殖中	
+d_pet_breed_9	倒计时	
+d_pet_breed_10	繁殖出的宠物	
+d_pet_breed_11	领取	
+d_pet_breed_12	等待对方添加宠物	
+d_pet_breed_13	你与{0}一起繁殖出的宠物	
+d_pet_breed_14	属于你的宠物	
+d_pet_breed_15	队友的宠物	
+d_pet_breed_16	对方已经确认	
+d_pet_breed_17	确认繁殖	
+d_pet_breed_18	双方确认后自动开始繁殖	
+intensify_tab_intensifyequip	装备强化	右侧标签按钮
+intensify_tab_intensifymagickey	魂器吞噬	右侧标签按钮
+intensify_tab_insertruby	宝石镶嵌	右侧标签按钮
+intensify_tab_removeruby	宝石摘除	右侧标签按钮
+intensify_tab_convertruby	宝石转换	右侧标签按钮
+intensify_title_selectequip	点击选择要强化的装备	
+d_pet_sex_1	雄性	
+d_pet_sex_2	雌性	
+d_dungeon_condition2	完成副本{0}开启	
+d_pet_skillforget	技能遗忘成功。	技能遗忘后的浮动提示
+d_pet_skilllearn	[87E84F]技能学习成功！[-]	技能学习后的浮动提示
+d_pet_wuxingup	宠物悟性提升至{0}	悟性提升成功的浮动提示，{0}填写悟性具体值。
+d_pet_wuxingfail	宠物悟性提升失败。	悟性提升失败的浮动提示
+d_pet_chongsheng	宠物已重生，品质是{0}。	宠物重生的浮动提示，{0}填写品质名带对应颜色。
+d_pet_chuzhan	宠物{0}开始出战。	｛0｝宠物名
+d_pet_fengyin	宠物{0}被封印。	｛0｝宠物名
+d_pet_xiuxi	宠物{0}开始休息。	｛0｝宠物名
+d_pet_skill_lv1	初级	
+d_pet_skill_lv2	中级	
+d_pet_skill_lv3	高级	
+d_catchpet_fail	捕获失败	
+d_catchpet_succeed	捕获成功	
+d_catchpet_catching	捕获中…	
+d_openbox_fail	开启失败	
+d_openbox_succeed	开启成功	
+d_openbox_openning	开启中…	
+intensify_bt_stopauto	停止	自动强化停止按钮文字
+d_equipwarning	穿着该装备后将会与你绑定，是否继续？	穿着未绑定装备时候的提示。
+d_pet_tianfu_color1	[DA77FF]{0}[-]	
+d_pet_tianfu_color2	[88E74F]{0}[-]	
+d_pet_tianfu_color3	[4BACFF]{0}[-]	
+intensify_magickey_expoverfill	本次吞噬将导致法宝经验溢出, 是否继续?	

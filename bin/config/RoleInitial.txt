@@ -1,0 +1,4 @@
+﻿int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int	int
+InitialStr	InitialDex	InitialWit	InitialVit	InitialAtkMin	InitialAtkMax	InitialDef	InitialMdef	InitialMtkMin	InitialMtkMax	InitialHp	InitialCrtChance	InitialCrtBonus	InitialBrilliantChance	InitialDefPierce	InitialMdefPierce	InitialIgnoreAllDef	InitialDoubleChance	InitialMoveSpeed	InitialBonusToArmor	InitialBonusToMonster	InitialExpUp	InitialCrtChanceResist	InitialCrtBonusResist	InitialReboundDmg	InitialHpBonus	InitialDmgReduce	InitialKillCure	InitialAllAtkBonus	InitialMF
+#初始力量	初始敏捷	初始智力	初始体力	初始物攻下限	初始物攻上限	初始物理防御	初始魔法防御	初始魔攻下限	初始魔攻上限	初始生命上限	初始幸运一击概率	初始幸运一击倍率	初始卓越一击	初始物理护甲穿透	初始魔法护甲穿透	初始无视防御概率	初始双倍伤害概率	初始移动速度(厘米/秒)	初始对BOSS护甲伤害提升	初始对怪物伤害提升	初始经验提升	初始抗幸运一击概率	初始抗幸运一击伤害	初始反伤比例	初始生命值提升百分比	初始伤害减少百分比	初始击杀怪物后恢复生命	初始攻击力增加百分比	初始mf值
+80	40	80	80	30000	70000	0	0	30000	70000	50000	1000	0	1000	0	0	0	1000	300	0	0	0	0	0	0	0	0	0	0	0

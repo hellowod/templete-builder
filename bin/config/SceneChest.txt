@@ -1,0 +1,8 @@
+﻿int	int	string	string	int	int	int	string	string	string	int	int	int	int	int	int
+Id	Rank	Name	ModelPath	ExistEffect	OpenEffect	OpenTime	DropItemList	DropChanceList	DropCountList	DropCount	EquipmentRarity1Chance	EquipmentRarity2Chance	EquipmentRarity3Chance	EquipmentRarity4Chance	EquipmentRarity5Chance
+#主键	宝箱品质	名称	模型路径	存在特效id	打开特效id	打开时间	掉落道具列表	掉落道具概率	掉落数量列表	掉落次数	稀有度1装备掉落权重	稀有度2装备掉落权重	稀有度3装备掉落权重	稀有度4装备掉落权重	稀有度5装备掉落权重
+1	1	普通宝箱	box/box_001.unity3d		35	3	40301_40302_40303_40304	4000_2000_1000_500	1_1_1_1	2	5000	4000	3000	2000	1000
+2	2	精良宝箱	box/box_002.unity3d		35	4	40301_40302_40303_40304	4000_2000_1000_500	1_1_1_1	2	5000	4000	3000	2000	1000
+3	3	稀有宝箱	box/box_003.unity3d	32	35	5	40301_40302_40303_40304	4000_2000_1000_500	1_1_1_1	2	5000	4000	3000	2000	1000
+4	4	史诗宝箱	box/box_004.unity3d	32	35	4	40301_40302_40303_40304	4000_2000_1000_500	1_1_1_1	2	5000	4000	3000	2000	1000
+5	5	至尊宝箱	box/box_005.unity3d	32	36	5	40301_40302_40303_40304	4000_2000_1000_500	1_1_1_1	2	5000	4000	3000	2000	1000
