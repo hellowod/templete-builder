@@ -22,22 +22,9 @@ func main() {
 
 	argc := len(os.Args)
 	if argc > 1 {
-		err := table.ParseArgs(os.Args)
+		err := paramArgv()
 		if err != nil {
-			util.LogHelp()
 			return
-		}
-		configInput = table.Ags.In.Value
-		configOut = table.Ags.Out.Value
-		configTpl = table.Ags.Tpl.Value
-		if table.Ags.Lang.Value == "java" {
-			configType = config.Java
-		}
-		if table.Ags.Lang.Value == "cpp" {
-			configType = config.Cpp
-		}
-		if table.Ags.Lang.Value == "go" {
-			configType = config.GoLang
 		}
 	} else {
 		util.LogDefaultArgs()
@@ -51,11 +38,11 @@ func main() {
 			return nil
 		}
 		// make sheet
-		sheet := NewTableSheet(name)
+		sheet := newTableSheet(name)
 		// new out file name
 		newName := getNewFileName(name, configType)
 		// parse templete
-		eor := ParseTemplete(newName, sheet)
+		eor := parseTemplete(newName, sheet)
 		if eor != nil {
 			return eor
 		}
@@ -66,7 +53,28 @@ func main() {
 	})
 }
 
-func NewTableSheet(name string) (s table.Sheet) {
+func paramArgv() error {
+	err := table.ParseArgs(os.Args)
+	if err != nil {
+		util.LogHelp()
+		return err
+	}
+	configInput = table.Ags.In.Value
+	configOut = table.Ags.Out.Value
+	configTpl = table.Ags.Tpl.Value
+	if table.Ags.Lang.Value == "java" {
+		configType = config.Java
+	}
+	if table.Ags.Lang.Value == "cpp" {
+		configType = config.Cpp
+	}
+	if table.Ags.Lang.Value == "go" {
+		configType = config.GoLang
+	}
+	return nil
+}
+
+func newTableSheet(name string) (s table.Sheet) {
 	fileString := fileutil.ReadFile(name)
 
 	lines := strings.Split(fileString, "\n")
@@ -94,7 +102,7 @@ func NewTableSheet(name string) (s table.Sheet) {
 	return sheet
 }
 
-func ParseTemplete(name string, sheet table.Sheet) error {
+func parseTemplete(name string, sheet table.Sheet) error {
 	tpl := template.New("tplname")
 	tpl, _ = tpl.Parse(fileutil.ReadFile(configTpl))
 

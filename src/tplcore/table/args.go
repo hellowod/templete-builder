@@ -4,6 +4,7 @@ import (
 	"errors"
 	"strings"
 	"tplcore/config"
+	"tplcore/util"
 )
 
 var Ags *Args
@@ -26,10 +27,11 @@ func (p Param) ToString() (str string) {
 }
 
 func ParseArgs(args []string) error {
-	if len(args) <= 0 {
-		return nil
+	if len(args) <= 1 {
+		return errors.New("param is too short")
 	}
 	Ags = new(Args)
+	count := 0
 	for i, v := range args {
 		val := strings.TrimSpace(v)
 		if config.Out == val {
@@ -38,6 +40,7 @@ func ParseArgs(args []string) error {
 				return err
 			}
 			Ags.Out = param
+			count++
 		}
 		if config.In == val {
 			param, err := newParam(val, args[i+1])
@@ -45,6 +48,7 @@ func ParseArgs(args []string) error {
 				return err
 			}
 			Ags.In = param
+			count++
 		}
 		if config.Tpl == val {
 			param, err := newParam(val, args[i+1])
@@ -52,6 +56,7 @@ func ParseArgs(args []string) error {
 				return err
 			}
 			Ags.Tpl = param
+			count++
 		}
 		if config.Lang == val {
 			param, err := newParam(val, args[i+1])
@@ -59,15 +64,18 @@ func ParseArgs(args []string) error {
 				return err
 			}
 			Ags.Lang = param
+			count++
 		}
 		if config.Help == val {
-			param, err := newParam(val, args[i+1])
-			if err != nil {
-				return err
-			}
-			Ags.Help = param
+			util.LogHelp()
+			return errors.New("param is error!")
 		}
 	}
+
+	if count != config.Argc {
+		return errors.New("param is error!")
+	}
+
 	return nil
 }
 

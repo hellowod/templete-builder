@@ -16,3 +16,7 @@ const (
 	Tpl  = "-t"
 	Help = "-help"
 )
+
+const (
+	Argc = 4
+)

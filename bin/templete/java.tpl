@@ -8,45 +8,39 @@ import java.util.HashMap;
  *
  * @Author: abaojin
  */
-public class {{.Name}}Tbl
-{
+public class {{.Name}}Tbl {
+
 	{{range .Colums}}// {{.Comment}}
 	private {{.Type}} {{.Field}};
-	
+	{{end}}
+	{{range .Colums}}
 	public {{.Type}} get{{.Field}}(){
 		return {{.Field}}
 	}
-	
 	public void set{{.Field}}({{.Type}} {{.Field}}){
 		this.{{.Field}} = {{.Field}}
 	}
-	
 	{{end}}
 }
 {{$StringType := "string"}}{{$IntType := "int"}}{{$ByteType := "byte"}}{{$FloatType := "float"}}
-public class {{.Name}}Cfg
-{
+public class {{.Name}}Cfg {
 	public const string FILENAME = "{{.Name}}";
-	public HashMap<int, BaseTbl> Init()
-	{
+	public HashMap<int, BaseTbl> Init() {
 		Table table = TableLoad.LoadTbl(FILENAME);
-		if(table == null)
-		{
+		if(table == null) {
 			return null;
 		}
-		var dict = new HashMap<int, BaseTbl>();
+		HashMap<int, BaseTbl> map = new HashMap<int, BaseTbl>();
 		int count = table.records.Count;
-		for(int i = 0; i < count; ++i)
-		{
+		for(int i = 0; i < count; ++i) {
 			{{.Name}}Tbl record = new {{.Name}}Tbl();
 			{{range .Colums}}{{if eq .Type $StringType}}record.{{.Field}} = table.GetString(i, "{{.Field}}");{{end}}{{if eq .Type $IntType}}record.{{.Field}} = table.GetInt(i, "{{.Field}}");{{end}}{{if eq .Type $ByteType}}record.{{.Field}} = table.GetByte(i, "{{.Field}}");{{end}}{{if eq .Type $FloatType}}record.{{.Field}} = table.GetFloat(i, "{{.Field}}");{{end}}
 			{{end}}
-			if(!dict.ContainsKey(record.Id))
-			{
+			if(!map.ContainsKey(record.Id)) {
 				continue;
 			}
-			dict.Add(record.Id, record);
+			map.Add(record.Id, record);
 		}
-		return dict;
+		return map;
 	}	
 }
