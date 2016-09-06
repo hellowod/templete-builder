@@ -6,13 +6,12 @@ const (
 	Csharp
 	Cpp
 	GoLang
-	Lua
 )
 
 // args type
 const (
 	Lang = "-l"
-	Out  = "-t"
+	Out  = "-o"
 	In   = "-i"
 	Tpl  = "-t"
 	Help = "-help"

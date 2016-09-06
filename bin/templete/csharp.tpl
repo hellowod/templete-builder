@@ -5,7 +5,7 @@ using System.Collections.Generic;
  * {{.Name}}Tbl.cs
  * {{.Name}}Cfg.cs
  *
- * @Author: AutoCode
+ * @Author: abaojin
  */
 namespace Config
 {

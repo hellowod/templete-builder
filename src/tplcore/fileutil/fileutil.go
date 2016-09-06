@@ -66,8 +66,6 @@ func GetLangSuffix(t int) (suffix string) {
 		return ".cpp"
 	case config.GoLang:
 		return ".go"
-	case config.Lua:
-		return ".lua"
 	default:
 		return
 	}

@@ -4,8 +4,10 @@ import (
 	"fmt"
 )
 
-func PrintLog() {
-	fmt.Println("templetebuilder is a tool for build templete code.")
+func LogHelp() {
+	fmt.Println("templetebuilder is a tool for build templete code," +
+		"According to the template to generate Java code, Csharp code," +
+		"C++ code, etc.")
 	fmt.Println("")
 
 	fmt.Println("Usage:")
@@ -17,4 +19,14 @@ func PrintLog() {
 	fmt.Println("  -i    input config file folder, default current config folder")
 	fmt.Println("  -t    templete file folder, default current templete folder")
 	fmt.Println("  -help if you don't how to do, use -help")
+}
+
+func LogDefaultArgs() {
+	fmt.Println("")
+
+	fmt.Println("config input path: config")
+	fmt.Println("config output path: output")
+	fmt.Println("config default templete file : templete/csharp.tpl")
+
+	fmt.Println("====================================")
 }

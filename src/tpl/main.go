@@ -16,22 +16,31 @@ import (
 var configInput = "config"
 var configOut = "output"
 var configTpl = "templete/csharp.tpl"
+var configType = config.Csharp
 
 func main() {
-	argnum := len(os.Args)
-	if argnum <= 1 {
-		util.PrintLog()
-	}
-	if table.Ags != nil {
-		if len(table.Ags.In.Value) < 1 {
-			configInput = table.Ags.In.Value
+
+	argc := len(os.Args)
+	if argc > 1 {
+		err := table.ParseArgs(os.Args)
+		if err != nil {
+			util.LogHelp()
+			return
 		}
-		if len(table.Ags.Out.Value) < 1 {
-			configOut = table.Ags.Out.Value
+		configInput = table.Ags.In.Value
+		configOut = table.Ags.Out.Value
+		configTpl = table.Ags.Tpl.Value
+		if table.Ags.Lang.Value == "java" {
+			configType = config.Java
 		}
-		if len(table.Ags.Tpl.Value) < 1 {
-			configTpl = table.Ags.Tpl.Value
+		if table.Ags.Lang.Value == "cpp" {
+			configType = config.Cpp
 		}
+		if table.Ags.Lang.Value == "go" {
+			configType = config.GoLang
+		}
+	} else {
+		util.LogDefaultArgs()
 	}
 
 	filepath.Walk(configInput, func(name string, file os.FileInfo, err error) error {
@@ -44,7 +53,7 @@ func main() {
 		// make sheet
 		sheet := NewTableSheet(name)
 		// new out file name
-		newName := getNewFileName(name, config.Csharp)
+		newName := getNewFileName(name, configType)
 		// parse templete
 		eor := ParseTemplete(newName, sheet)
 		if eor != nil {
@@ -94,6 +103,11 @@ func ParseTemplete(name string, sheet table.Sheet) error {
 	err := tpl.Execute(buf, sheet)
 	if err != nil {
 		return err
+	}
+
+	_, ers := os.Stat(configOut)
+	if ers != nil {
+		os.MkdirAll(configOut, os.ModeDir)
 	}
 
 	outPath := filepath.Join(configOut, name)
