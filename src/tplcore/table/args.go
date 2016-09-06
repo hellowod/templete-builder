@@ -68,7 +68,7 @@ func ParseArgs(args []string) error {
 		}
 		if config.Help == val {
 			util.LogHelp()
-			return errors.New("param is error!")
+			return nil
 		}
 	}
 
