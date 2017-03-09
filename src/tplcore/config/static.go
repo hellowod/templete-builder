@@ -6,6 +6,7 @@ const (
 	Csharp
 	Cpp
 	GoLang
+	Lua
 )
 
 // args type

@@ -71,6 +71,9 @@ func paramArgv() error {
 	if table.Ags.Lang.Value == "go" {
 		configType = config.GoLang
 	}
+	if table.Ags.Lang.Value == "lua" {
+		configType = config.Lua
+	}
 	return nil
 }
 
